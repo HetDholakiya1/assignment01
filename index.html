@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+p {
+    font-weight: bold;
+    color: #3498db;
+    margin: 5px;
+}
+
+#story {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#studentId {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #555;
+}
+    </style>
+</head>
+
+<body>
+    <h1>See-N-Say Storymaker</h1>
+    <p id="studentId"></p>
+    <section>
+        <h2>Create Your Story</h2>
+        <button id="noun1">Noun 1</button>
+        <p id="chosenNoun1"></p>
+        <button id="verb">Verb</button>
+        <p id="chosenVerb"></p>
+        <button id="adjective">Adjective</button>
+        <p id="chosenAdjective"></p>
+        <button id="noun2">Noun 2</button>
+        <p id="chosenNoun2"></p>
+        <button id="setting">Setting</button>
+        <p id="chosenSetting"></p>
+    </section>
+    <section>
+        <h2>See Your Story</h2>
+        <button id="playback">Show Story</button>
+        <button id="random">Random Story</button>
+        <p id="story"></p>
+    </section>
+</body>
+</html>
